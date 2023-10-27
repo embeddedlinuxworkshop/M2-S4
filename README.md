@@ -41,10 +41,21 @@ man hier
 a. standard directories.
 ![Screenshot 2023-10-27 at 1 22 34 PM](https://github.com/embeddedlinuxworkshop/M2-S4/assets/139722851/e79bfce8-c634-4582-a315-cf7733e0d2bb)
 
+---
+
 b. Init process.
+
+---
+
 c. Shell.
+
+---
 d. Commands.
+
+---
+
 e. Applications.
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
