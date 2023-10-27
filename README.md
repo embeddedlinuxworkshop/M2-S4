@@ -15,11 +15,14 @@
 8. Libraries.
 9. Merging `sysroot` with `rootfilesystem` using `rsync`
 10. Virtual File systems [proc and sysfs].
-11. Packaging rootfilesystem to target [initramfs - Disk Image - NFS].
-12. Creating Uncompressed filesystem.
-13. Compressing `initramfs` system using [mkinitfs - CPIO].
-14. Booting Kernel with initramfs.
-15. Init program [Process of reading configuration from /etc/inittab].
+```
+proc & sys creation/mounting process.
+```
+12. Packaging rootfilesystem to target [initramfs - Disk Image - NFS].
+13. Creating Uncompressed filesystem.
+14. Compressing `initramfs` system using [mkinitfs - CPIO].
+15. Booting Kernel with initramfs.
+16. Init program [Process of reading configuration from /etc/inittab].
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### 1. Kernel without filesystem 😱😱😱😱😱😱😱😱😱😱😱
@@ -102,7 +105,7 @@ make ARCH=arm64 CROSS_COMPILE=<prefix_toolchain> install
 
 ### 7. Merging `sysroot` with `rootfilesystem` using `rsync`.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ```
 rsync -avh /path/source /path/to/destination/
